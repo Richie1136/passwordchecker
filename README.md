@@ -25,5 +25,15 @@
 
 11. Split the hash response on the : and then looped the line through the hashes text
 
-12. Looped the hash and the count through the hashes generator, so that we get the hashed password and the amount of
+12. Looped the hash and the count through the hashes generator, so that i get the hashed password and the amount of
     times that the password has been hacked
+
+13. Check to see if the hash which is the tail of the hash is equal to the tail end of our hashed password. If they are
+    equal then i want to return the number of times the password has been leaked otherwise i want to return zero
+
+14. I created a main function that will receive the command line arguments that are given. I am going to loop through
+    the passwords and then receive the count from the password leaks function.
+
+15. Next set the count equal to the pwnd api check function and passed in the password to see if it has ever been fouund
+    in the api. if the password exists in the pwdpassword api then print out the password and the amount of times that
+    it was found in the api. Next if the passowrd was not found then print out password not found.
